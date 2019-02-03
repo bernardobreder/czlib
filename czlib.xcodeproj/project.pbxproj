@@ -1,391 +1,693 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 50;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		016A11632206EC4300CF2293 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A11482206EC4300CF2293 /* inftrees.h */; };
-		016A11642206EC4300CF2293 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11492206EC4300CF2293 /* inflate.c */; };
-		016A11652206EC4300CF2293 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A114A2206EC4300CF2293 /* compress.c */; };
-		016A11662206EC4300CF2293 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A114B2206EC4300CF2293 /* deflate.c */; };
-		016A11672206EC4300CF2293 /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A114C2206EC4300CF2293 /* inffixed.h */; };
-		016A11682206EC4300CF2293 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A114D2206EC4300CF2293 /* gzread.c */; };
-		016A11692206EC4300CF2293 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A114E2206EC4300CF2293 /* trees.h */; };
-		016A116A2206EC4300CF2293 /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A114F2206EC4300CF2293 /* inffast.h */; };
-		016A116B2206EC4300CF2293 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11502206EC4300CF2293 /* crc32.c */; };
-		016A116C2206EC4300CF2293 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11512206EC4300CF2293 /* infback.c */; };
-		016A116D2206EC4300CF2293 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11522206EC4300CF2293 /* zutil.c */; };
-		016A116E2206EC4300CF2293 /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A11532206EC4300CF2293 /* deflate.h */; };
-		016A116F2206EC4300CF2293 /* gzguts.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A11542206EC4300CF2293 /* gzguts.h */; };
-		016A11702206EC4300CF2293 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11552206EC4300CF2293 /* gzlib.c */; };
-		016A11712206EC4300CF2293 /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A11562206EC4300CF2293 /* inflate.h */; };
-		016A11722206EC4300CF2293 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11572206EC4300CF2293 /* inftrees.c */; };
-		016A11732206EC4300CF2293 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11582206EC4300CF2293 /* uncompr.c */; };
-		016A11742206EC4300CF2293 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A11592206EC4300CF2293 /* gzwrite.c */; };
-		016A11752206EC4300CF2293 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A115A2206EC4300CF2293 /* trees.c */; };
-		016A11762206EC4300CF2293 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A115B2206EC4300CF2293 /* gzclose.c */; };
-		016A11772206EC4300CF2293 /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A115C2206EC4300CF2293 /* crc32.h */; };
-		016A11782206EC4300CF2293 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A115D2206EC4300CF2293 /* inffast.c */; };
-		016A11792206EC4300CF2293 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 016A115E2206EC4300CF2293 /* adler32.c */; };
-		016A117A2206EC4300CF2293 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A11602206EC4300CF2293 /* zutil.h */; };
-		016A117B2206EC4300CF2293 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A11612206EC4300CF2293 /* zlib.h */; };
-		016A117C2206EC4300CF2293 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 016A11622206EC4300CF2293 /* zconf.h */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		016A11112206EC1E00CF2293 /* libczlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libczlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		016A11482206EC4300CF2293 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
-		016A11492206EC4300CF2293 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
-		016A114A2206EC4300CF2293 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
-		016A114B2206EC4300CF2293 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
-		016A114C2206EC4300CF2293 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
-		016A114D2206EC4300CF2293 /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
-		016A114E2206EC4300CF2293 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
-		016A114F2206EC4300CF2293 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
-		016A11502206EC4300CF2293 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
-		016A11512206EC4300CF2293 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
-		016A11522206EC4300CF2293 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
-		016A11532206EC4300CF2293 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
-		016A11542206EC4300CF2293 /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
-		016A11552206EC4300CF2293 /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
-		016A11562206EC4300CF2293 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
-		016A11572206EC4300CF2293 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
-		016A11582206EC4300CF2293 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
-		016A11592206EC4300CF2293 /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
-		016A115A2206EC4300CF2293 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
-		016A115B2206EC4300CF2293 /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
-		016A115C2206EC4300CF2293 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
-		016A115D2206EC4300CF2293 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
-		016A115E2206EC4300CF2293 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
-		016A11602206EC4300CF2293 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
-		016A11612206EC4300CF2293 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
-		016A11622206EC4300CF2293 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		016A110F2206EC1E00CF2293 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		016A11082206EC1E00CF2293 = {
-			isa = PBXGroup;
-			children = (
-				016A115F2206EC4300CF2293 /* inc */,
-				016A11472206EC4300CF2293 /* src */,
-				016A11122206EC1E00CF2293 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		016A11122206EC1E00CF2293 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				016A11112206EC1E00CF2293 /* libczlib.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		016A11472206EC4300CF2293 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				016A11482206EC4300CF2293 /* inftrees.h */,
-				016A11492206EC4300CF2293 /* inflate.c */,
-				016A114A2206EC4300CF2293 /* compress.c */,
-				016A114B2206EC4300CF2293 /* deflate.c */,
-				016A114C2206EC4300CF2293 /* inffixed.h */,
-				016A114D2206EC4300CF2293 /* gzread.c */,
-				016A114E2206EC4300CF2293 /* trees.h */,
-				016A114F2206EC4300CF2293 /* inffast.h */,
-				016A11502206EC4300CF2293 /* crc32.c */,
-				016A11512206EC4300CF2293 /* infback.c */,
-				016A11522206EC4300CF2293 /* zutil.c */,
-				016A11532206EC4300CF2293 /* deflate.h */,
-				016A11542206EC4300CF2293 /* gzguts.h */,
-				016A11552206EC4300CF2293 /* gzlib.c */,
-				016A11562206EC4300CF2293 /* inflate.h */,
-				016A11572206EC4300CF2293 /* inftrees.c */,
-				016A11582206EC4300CF2293 /* uncompr.c */,
-				016A11592206EC4300CF2293 /* gzwrite.c */,
-				016A115A2206EC4300CF2293 /* trees.c */,
-				016A115B2206EC4300CF2293 /* gzclose.c */,
-				016A115C2206EC4300CF2293 /* crc32.h */,
-				016A115D2206EC4300CF2293 /* inffast.c */,
-				016A115E2206EC4300CF2293 /* adler32.c */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		016A115F2206EC4300CF2293 /* inc */ = {
-			isa = PBXGroup;
-			children = (
-				016A11602206EC4300CF2293 /* zutil.h */,
-				016A11612206EC4300CF2293 /* zlib.h */,
-				016A11622206EC4300CF2293 /* zconf.h */,
-			);
-			path = inc;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		016A110D2206EC1E00CF2293 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				016A116E2206EC4300CF2293 /* deflate.h in Headers */,
-				016A11692206EC4300CF2293 /* trees.h in Headers */,
-				016A11772206EC4300CF2293 /* crc32.h in Headers */,
-				016A11632206EC4300CF2293 /* inftrees.h in Headers */,
-				016A11712206EC4300CF2293 /* inflate.h in Headers */,
-				016A117B2206EC4300CF2293 /* zlib.h in Headers */,
-				016A116A2206EC4300CF2293 /* inffast.h in Headers */,
-				016A117C2206EC4300CF2293 /* zconf.h in Headers */,
-				016A117A2206EC4300CF2293 /* zutil.h in Headers */,
-				016A116F2206EC4300CF2293 /* gzguts.h in Headers */,
-				016A11672206EC4300CF2293 /* inffixed.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		016A11102206EC1E00CF2293 /* czlib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 016A11152206EC1E00CF2293 /* Build configuration list for PBXNativeTarget "czlib" */;
-			buildPhases = (
-				016A110D2206EC1E00CF2293 /* Headers */,
-				016A110E2206EC1E00CF2293 /* Sources */,
-				016A110F2206EC1E00CF2293 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = czlib;
-			productName = czlib;
-			productReference = 016A11112206EC1E00CF2293 /* libczlib.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		016A11092206EC1E00CF2293 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Bernardo Breder";
-				TargetAttributes = {
-					016A11102206EC1E00CF2293 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-				};
-			};
-			buildConfigurationList = 016A110C2206EC1E00CF2293 /* Build configuration list for PBXProject "czlib" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 016A11082206EC1E00CF2293;
-			productRefGroup = 016A11122206EC1E00CF2293 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				016A11102206EC1E00CF2293 /* czlib */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		016A110E2206EC1E00CF2293 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				016A11702206EC4300CF2293 /* gzlib.c in Sources */,
-				016A11642206EC4300CF2293 /* inflate.c in Sources */,
-				016A11732206EC4300CF2293 /* uncompr.c in Sources */,
-				016A11752206EC4300CF2293 /* trees.c in Sources */,
-				016A11662206EC4300CF2293 /* deflate.c in Sources */,
-				016A116D2206EC4300CF2293 /* zutil.c in Sources */,
-				016A11762206EC4300CF2293 /* gzclose.c in Sources */,
-				016A116C2206EC4300CF2293 /* infback.c in Sources */,
-				016A11682206EC4300CF2293 /* gzread.c in Sources */,
-				016A11722206EC4300CF2293 /* inftrees.c in Sources */,
-				016A116B2206EC4300CF2293 /* crc32.c in Sources */,
-				016A11782206EC4300CF2293 /* inffast.c in Sources */,
-				016A11742206EC4300CF2293 /* gzwrite.c in Sources */,
-				016A11652206EC4300CF2293 /* compress.c in Sources */,
-				016A11792206EC4300CF2293 /* adler32.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin XCBuildConfiguration section */
-		016A11132206EC1E00CF2293 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		016A11142206EC1E00CF2293 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		016A11162206EC1E00CF2293 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NF8525TU2D;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		016A11172206EC1E00CF2293 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NF8525TU2D;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		016A110C2206EC1E00CF2293 /* Build configuration list for PBXProject "czlib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				016A11132206EC1E00CF2293 /* Debug */,
-				016A11142206EC1E00CF2293 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		016A11152206EC1E00CF2293 /* Build configuration list for PBXNativeTarget "czlib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				016A11162206EC1E00CF2293 /* Debug */,
-				016A11172206EC1E00CF2293 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 016A11092206EC1E00CF2293 /* Project object */;
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "English";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_28";
+         projectDirPath = ".";
+         targets = (
+            "czlib::czlib",
+            "czlib::SwiftPMPackageDescription",
+            "czlib::czlibPackageTests::ProductTarget",
+            "czlib::czlibTests"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "compress.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "crc32.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXFileReference";
+         path = "deflate.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "gzclose.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXFileReference";
+         path = "gzlib.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "gzread.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXFileReference";
+         path = "gzwrite.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         path = "infback.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "inffast.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "inflate.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "inftrees.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "trees.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "uncompr.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "zutil.c";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_25"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_25" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_26",
+            "OBJ_27"
+         );
+         name = "czlibTests";
+         path = "Tests/czlibTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_26" = {
+         isa = "PBXFileReference";
+         path = "XCTestManifests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "czlibTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_28" = {
+         isa = "PBXGroup";
+         children = (
+            "czlib::czlibTests::Product",
+            "czlib::czlib::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "DEBUG=1",
+               "$(inherited)"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_32" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_33",
+            "OBJ_34"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_33" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/Sources/czlib/include"
+            );
+            INFOPLIST_FILE = "czlib.xcodeproj/czlib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "czlib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "czlib";
+         };
+         name = "Debug";
+      };
+      "OBJ_34" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/Sources/czlib/include"
+            );
+            INFOPLIST_FILE = "czlib.xcodeproj/czlib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "czlib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            TARGET_NAME = "czlib";
+         };
+         name = "Release";
+      };
+      "OBJ_35" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_36",
+            "OBJ_37",
+            "OBJ_38",
+            "OBJ_39",
+            "OBJ_40",
+            "OBJ_41",
+            "OBJ_42",
+            "OBJ_43",
+            "OBJ_44",
+            "OBJ_45",
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48",
+            "OBJ_49",
+            "OBJ_50"
+         );
+      };
+      "OBJ_36" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_37" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_10";
+      };
+      "OBJ_38" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
+      };
+      "OBJ_39" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_12";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_41" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
+      };
+      "OBJ_42" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
+      };
+      "OBJ_43" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
+      };
+      "OBJ_44" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_17";
+      };
+      "OBJ_45" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_18";
+      };
+      "OBJ_46" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_47" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_48" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
+      };
+      "OBJ_49" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_24",
+            "OBJ_28"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+      };
+      "OBJ_51" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_53" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_54",
+            "OBJ_55"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_54" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
+      };
+      "OBJ_55" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
+      };
+      "OBJ_56" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_57"
+         );
+      };
+      "OBJ_57" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_59" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_60",
+            "OBJ_61"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_61" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_62" = {
+         isa = "PBXTargetDependency";
+         target = "czlib::czlibTests";
+      };
+      "OBJ_64" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_65",
+            "OBJ_66"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_65" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/Sources/czlib/include"
+            );
+            INFOPLIST_FILE = "czlib.xcodeproj/czlibTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "czlibTests";
+         };
+         name = "Debug";
+      };
+      "OBJ_66" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/Sources/czlib/include"
+            );
+            INFOPLIST_FILE = "czlib.xcodeproj/czlibTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "czlibTests";
+         };
+         name = "Release";
+      };
+      "OBJ_67" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_68",
+            "OBJ_69"
+         );
+      };
+      "OBJ_68" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_26";
+      };
+      "OBJ_69" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_70" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_71"
+         );
+      };
+      "OBJ_71" = {
+         isa = "PBXBuildFile";
+         fileRef = "czlib::czlib::Product";
+      };
+      "OBJ_72" = {
+         isa = "PBXTargetDependency";
+         target = "czlib::czlib";
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9",
+            "OBJ_10",
+            "OBJ_11",
+            "OBJ_12",
+            "OBJ_13",
+            "OBJ_14",
+            "OBJ_15",
+            "OBJ_16",
+            "OBJ_17",
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_22",
+            "OBJ_23"
+         );
+         name = "czlib";
+         path = "Sources/czlib";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "adler32.c";
+         sourceTree = "<group>";
+      };
+      "czlib::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_53";
+         buildPhases = (
+            "OBJ_56"
+         );
+         dependencies = (
+         );
+         name = "czlibPackageDescription";
+         productName = "czlibPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "czlib::czlib" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_32";
+         buildPhases = (
+            "OBJ_35",
+            "OBJ_51"
+         );
+         dependencies = (
+         );
+         name = "czlib";
+         productName = "czlib";
+         productReference = "czlib::czlib::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "czlib::czlib::Product" = {
+         isa = "PBXFileReference";
+         path = "czlib.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "czlib::czlibPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_59";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_62"
+         );
+         name = "czlibPackageTests";
+         productName = "czlibPackageTests";
+      };
+      "czlib::czlibTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_64";
+         buildPhases = (
+            "OBJ_67",
+            "OBJ_70"
+         );
+         dependencies = (
+            "OBJ_72"
+         );
+         name = "czlibTests";
+         productName = "czlibTests";
+         productReference = "czlib::czlibTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "czlib::czlibTests::Product" = {
+         isa = "PBXFileReference";
+         path = "czlibTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+   };
+   rootObject = "OBJ_1";
 }
